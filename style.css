@@ -47,6 +47,7 @@ body{
  }
  label{
    color: aliceblue;
+     margin-top: 10px;
  }
  form{
    background-color: #04014e;
