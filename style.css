@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: linear-gradient(to right, #562c6a,#8d4b71, #a45774);
+   max-width: 1024px;
+   margin: auto;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   
+   
+}
+ .content{
+   width: 80%;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 20px;
+
+ }
+ .formulaire{
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   margin: 10px;
+
+ }
+ .alignement{
+   display: flex;
+   gap:20px;
+   outline: none;
+ }
+ input,textarea{
+   padding: 5px;
+   /* width: 15rem; */
+ }
+ input{
+   border: none;
+   border-bottom: 1px solid #fff;
+   padding: 10px;
+   background-color: #04014e;
+ }
+ label{
+   color: aliceblue;
+ }
+ form{
+   background-color: #04014e;
+ }
+ #name{
+   margin-left: 2px;
+ }
+ textarea{
+   margin-left: -20px;
+   background-color: #04014e;
+   border: none;
+   border-bottom: 1px solid #fff;
+   padding: 10px;
+ }
+ #mail{
+   margin-left: 10px;
+ }
+ img{
+   width: 18rem;
+   height: 20rem;
+ }
+ select{
+   background-color: #04014e;
+   border: none;
+   color: aliceblue;
+   padding: 5px;
+ }
+ button{
+   width: 7rem;
+   padding: 7px;
+   border: none;
+   margin: 10px;
+   color: #fff;
+   background: linear-gradient(to top, #562c6a, #a45774);
+ }
+ h1{
+   text-align: center;
+   margin: 10px;
+   color: #934f72;
+ }
+ #price{
+border: none;
+
+ }
+ ::placeholder{
+   color: aliceblue;
+ }
+ .pdp div{
+   text-align: center;
+   color: #fff;
+   background-color: #935268;
+   opacity: 0.80;
+ }
+ @media screen and (max-width:1024px) { 
+   .content{
+      width: 100%;
+   }
+   form{
+      width: 100%;
+      background-size: cover;
+   }
+   input,select,textarea{
+      width: 100%;
+   }
+   img{
+      width: 100%;
+      height: auto;
+   }
+ }
